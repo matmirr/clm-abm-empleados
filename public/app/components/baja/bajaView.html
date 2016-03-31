@@ -1,0 +1,27 @@
+<div class='container-fluid'>
+  <div class='row well well-lg'>
+    <form name='empleadoForm' ng-submit='empleadoForm.$valid && submit(empleado)' novalidate>
+      <div class='col-md-3 col-md-offset-2'>
+        <div class='form-group'>
+          <label class='hidden-xs' for='docType'>Tipo de documento</label>
+          <select ng-model='empleado.idType' class="form-control" id='docType' required>
+            <option value='DNI' selected>DNI</option>
+            <option value='LC'>LC</option>
+            <option value='LE'>LE</option>
+            <option value='CI'>CI</option>
+            <option value='Pasaporte'>Pasaporte</option>
+            <option value='RENAPER'>RENAPER</option>
+          </select>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='docNum'>Número de documento</label>
+          <input ng-model='empleado.idNumber' type='number' class='form-control' id=docNum placeholder='Número de documento' required>
+        </div>
+        <div class='form-actions'>
+            <button type='submit' value="Submit" class='btn btn-danger'>Dar de baja <span class='glyphicon glyphicon-thumbs-down'></span></button>
+         </div>
+       </div>
+     </form>
+   </div>
+ </div>
+</div>

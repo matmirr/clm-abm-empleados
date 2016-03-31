@@ -1,0 +1,71 @@
+<div class='container-fluid'>
+  <div class='row well well-lg'>
+    <form name='empleadoForm' ng-submit='empleadoForm.$valid && modify(empleado)' novalidate>
+      <div class='col-md-3 col-md-offset-2'>
+        <div class='form-group'>
+          <label class='hidden-xs' for='rol' >Rol</label>
+          <input ng-model='empleado.rol' type='text' class='form-control' id=rol placeholder='Rol' autofocus required>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='name'>Nombre</label>
+          <input ng-model='empleado.fname' type='text' class='form-control' id=name placeholder='Nombre' required>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='lastname'>Apellido</label>
+          <input ng-model='empleado.lname'type='text' class='form-control' id=lastname placeholder='Apellido' required>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='mail'>Email</label>
+          <input ng-model='empleado.email' type='email' class='form-control' id=mail placeholder='Email' required>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='gender'>Género</label>
+          <select class='form-control' id='gender' ng-model='empleado.gender' required>
+            <option value='Masculino' selected>Masculino</option>
+            <option value='Femenino'>Femenino</option>
+          </select>
+        </div>
+      </div>
+      <div class='col-md-3 col-md-offset-1'>
+        <div class='form-group'>
+          <label class='hidden-xs' for='docType'>Tipo de documento</label>
+          <select ng-model='empleado.idType' class="form-control" id='docType' required>
+            <option value='DNI' selected>DNI</option>
+            <option value='LC'>LC</option>
+            <option value='LE'>LE</option>
+            <option value='CI'>CI</option>
+            <option value='Pasaporte'>Pasaporte</option>
+            <option value='RENAPER'>RENAPER</option>
+          </select>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='docNum'>Número de documento</label>
+          <input ng-model='empleado.idNumber' type='number' class='form-control' id=docNum placeholder='Número de documento' required>
+        </div>
+        <div class='form-group'>
+          <label for='fnac'>Fecha de nacimiento</label>
+          <input ng-model='empleado.fnac' type='date' class='form-control' id=fnac required>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='civilStatus'>Estado Civil</label>
+          <select ng-model='empleado.civilStatus' class='form-control' id='civilStatus' required>
+            <option value='Soltero' selected>Soltero</option>
+            <option value='Casado'>Casado</option>
+          </select>
+        </div>
+        <div class='form-group'>
+          <label class='hidden-xs' for='eStatus'>Estado en el sistema</label>
+          <select ng-model='empleado.eStatus' class='form-control' id='eStatus' required>
+            <option value='1' selected>1</option>
+            <option value='0'>0</option>
+          </select>
+        </div>
+      </div>
+      <div class='col-md-3 col-md-offset-4'>
+        <div class='form-actions'>
+            <button type='submit' value="Submit" class='btn btn-warning'>Modificar <span class='glyphicon glyphicon-edit'></span></button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

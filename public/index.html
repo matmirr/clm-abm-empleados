@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en' ng-app='ABM'>
+  <head>
+    <link href='./app/node_modules/bootstrap/dist/css/bootstrap.css' rel='stylesheet'>
+    <link href='assets/css/main.css' rel='stylesheet'>
+    <meta charset='UTF-8'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src='assets/js/bundle.js'></script>
+ </head>
+  <body>
+    <header>
+      <nav class='navbar navbar-default navbar-static-top header'>
+        <div class='container-fluid'>
+          <div class='navbar-header'>
+            <img src='assets/img/clm-logo.jpg' alt='CLM group'/>
+              <h1>CLM ARGENTINA S.A - ABM de empleados</h1>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class='container-fluid'>
+      <section ng-controller='AbmCtrl'>
+        <nav>
+          <ul class='nav nav-pills'>
+            <li ng-class="{ active:isSelected(1) }">
+              <a href ng-click='selectTab(1)'>Alta</a>
+            </li>
+            <li ng-class="{ active:isSelected(2) }">
+              <a href ng-click='selectTab(2)'>Baja</a>
+            </li>
+            <li ng-class="{ active:isSelected(3) }">
+              <a href ng-click='selectTab(3)'>Modificación</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="panel" ng-show='isSelected(1)'>
+          <alta-directive></alta-directive>
+        </div>
+        <div class="panel" ng-show='isSelected(2)'>
+          <baja-directive></baja-directive>
+        </div>
+        <div class="panel" ng-view ng-show='isSelected(3)'>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class='navbar navbar-inverse navbar-fixed-bottom footer'>
+        <div class='container-fluid'>
+          <img src='assets/img/clm-copyright.jpg' alt='CLM group. All rights reserved'>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>

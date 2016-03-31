@@ -1,0 +1,16 @@
+{
+  "name": "clm-abm-empleados",
+  "version": "0.1.0",
+  "description": "Demo de una ABM de empleados para la empresa CLM group. Manejo de tecnlogías varías (HTML5, Bootstrap, AngularJS y nodeJS)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matmir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.6"
+  }
+}

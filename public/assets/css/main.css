@@ -1,0 +1,70 @@
+/* Background color */
+body {
+ background-color: #F2F2F2;
+ padding-bottom: 80px;
+}
+
+/* Specific content for 'header' */
+.header {
+background-color: #0173BC;
+height: 125px;
+}
+
+.header img {
+  float: left;
+}
+
+.header h1{
+  color: #FFFFFF;
+  padding: 40px 0 0 150px;
+  font-size:28px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+/* Specific content for index.html 'body' */
+ul li {
+  float: left;
+  display: inline;
+}
+
+/* Specific content for altaView.html 'body' */
+.form-actions {
+  text-align: center;
+}
+
+.form-actions button {
+  margin-top: 15px;
+  font-weight: bold;
+  width: 120px;
+}
+
+.form-actions span {
+  padding-left: 6px;
+}
+
+.ng-invalid.ng-dirty {
+  border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+  border-color: #78FA89;
+}
+
+/* Specific content for modificacionView.html 'body' */
+.modList p {
+  font-size: 18px;
+  padding-right: 40px;
+}
+
+/* Me cambia el cursor para que las filas de la tabla sean clickeables */
+.modList tr {
+  cursor: pointer;
+}
+
+/* Specific content for 'footer' */
+.footer {
+  text-align: left;
+  background-color: #0173BC;
+}

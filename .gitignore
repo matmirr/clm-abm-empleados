@@ -1,0 +1,5 @@
+#Ignore objects and archives, anywhere in the tree.
+
+node_modules/
+log
+npm-debug.log

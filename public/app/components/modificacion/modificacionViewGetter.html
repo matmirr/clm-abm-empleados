@@ -1,0 +1,29 @@
+<div class='container-fluid modList'>
+  <div class='row well well-lg'>
+    <p class='lead'>Lista de Empleados:</p>
+    <div class='col-md-10 col-md-offset-1'>
+      <div class="table-responsive">
+        <table class="table table-condensed table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Rol</th>
+              <th>Mail</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat='empleado in empleados' ng-click='updateEmployee(empleado)'>
+              <td> {{ empleado.fname }} </a></td>
+              <td> {{ empleado.lname }} </td>
+              <td> {{ empleado.rol }} </td>
+              <td> {{ empleado.email }} </td>
+              <td> {{ empleado.eStatus }} </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

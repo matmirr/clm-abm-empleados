@@ -1,0 +1,26 @@
+{
+  "name": "public",
+  "version": "0.1.0",
+  "description": "clientside",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matmir",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
