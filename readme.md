@@ -1,5 +1,5 @@
-## Synopsis
+# MEAN Stack Demo
 
-At the top of the file there should be a short introduction and/ or overview that explains what the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+  El propósito de este proyecto fue crear una aplicación utilizando tecnlogía MEAN (MongoDB, Express, AngularJS, NodeJS). Simplemente es una ABM de empleados, utilizando criterios propios para mostrar el funcionamiento y la interacción de todos los módulos 
 
-## Code Example
+## 1. Installation Steps
