@@ -5,7 +5,7 @@ module.exports = (function() {
    var Empleado = require('../../model/empleado');
 
    angular.module('BajaController', ['EmpleadoService'])
-    .controller('BajaCtrl', ['$scope', 'Submit', function($scope, $location, Submit) {
+    .controller('BajaCtrl', ['$scope', 'Submit', function($scope, Submit) {
 
       $scope.empleado = new Empleado();
 
