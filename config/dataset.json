@@ -1,0 +1,155 @@
+[
+{
+    "rol" : "Analista SAP Jr",
+    "fname" : "Magali",
+    "lname" : "Marquez",
+    "email" : "marquez.magali@gmail.com",
+    "gender" : "Femenino",
+    "idType" : "DNI",
+    "idNumber" : 35973796,
+    "fnac" : "1991-06-06T03:00:00.000Z",
+    "civilStatus" : "Soltero",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Proyect Manager",
+    "fname" : "Victor",
+    "lname" : "Miranda",
+    "email" : "miranda.victor@clmgrp.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 14796770,
+    "fnac" : "1961-09-19T03:00:00.000Z",
+    "civilStatus" : "Casado",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "RRHH",
+    "fname" : "María de Lourdes",
+    "lname" : "López Maza",
+    "email" : "rrhh@clmgrp.com",
+    "gender" : "Femenino",
+    "idType" : "DNI",
+    "idNumber" : 20471859,
+    "fnac" : "1969-01-05T03:00:00.000Z",
+    "civilStatus" : "Casado",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Consultor SAP FI-CA",
+    "fname" : "Nicolás Ezequiel",
+    "lname" : "Lucentini",
+    "email" : "nicolas.lucentini@gmail.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 11111111,
+    "fnac" : "1970-11-11T03:00:00.000Z",
+    "civilStatus" : "Soltero",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Finance & Administrative Director at CLM Group, Inc.",
+    "fname" : "Daniel",
+    "lname" : "Cutrone",
+    "email" : "cutrone.daniel@clmgrp.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 17895123,
+    "fnac" : "2016-03-29T03:00:00.000Z",
+    "civilStatus" : "Casado",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Sales Manager CLM Group, Inc.",
+    "fname" : "Claudio",
+    "lname" : "Lucentini",
+    "email" : "lucentini.claudio@clmgrp.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 11111111,
+    "fnac" : "2016-03-28T03:00:00.000Z",
+    "civilStatus" : "Casado",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Consultor ABAP",
+    "fname" : "Eduardo",
+    "lname" : "Cafferata",
+    "email" : "eduardocafferata@gmail.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 11111111,
+    "fnac" : "1969-08-14T03:00:00.000Z",
+    "civilStatus" : "Soltero",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Consultor SAP FICO",
+    "fname" : "Andrès",
+    "lname" : "Peianovich",
+    "email" : "a.peianovich@gmail.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 28507980,
+    "fnac" : "2016-03-14T03:00:00.000Z",
+    "civilStatus" : "Soltero",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Programador Senior Java",
+    "fname" : "Dante",
+    "lname" : "Salamone",
+    "email" : "dante.salamone@gmail.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 38123833,
+    "fnac" : "2016-03-22T03:00:00.000Z",
+    "civilStatus" : "Soltero",
+    "eStatus" : 1,
+    "__v" : 0
+},
+
+{
+    "rol" : "Consultor ABAP",
+    "fname" : "Matías",
+    "email" : "matmiranda@live.com.ar",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 36401087,
+    "fnac" : "1991-08-31T03:00:00.000Z",
+    "civilStatus" : "Soltero",
+    "eStatus" : 1,
+    "__v" : 0,
+    "lname" : "Miranda"
+},
+
+{
+    "rol" : "Arquitecto de Infrastructura",
+    "fname" : "Javier",
+    "lname" : "Ailbirt",
+    "email" : "j.ailbirt@interactar.com",
+    "gender" : "Masculino",
+    "idType" : "DNI",
+    "idNumber" : 24678341,
+    "fnac" : "1981-04-23T03:00:00.000Z",
+    "civilStatus" : "Casado",
+    "eStatus" : 1,
+    "__v" : 0
+}
+]

@@ -26,7 +26,7 @@ app.use('/abm/baja', bajaRouter(emplCtrl));
 app.use('/abm/modificacion', modificacionRouter(emplCtrl));
 
 /* Start mongodb connection */
-mongodb(consts.DATABASE_URL, logger);
+mongodb(consts.DATABASE_URL, consts.DATA_GEN, logger);
 
 /* Start server listener */
 app.listen(consts.PORT, function(){
