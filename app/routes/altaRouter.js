@@ -13,7 +13,7 @@ module.exports = (function(emplCtrl) {
 
   router.route('/')
     .get(function(request, response) {
-      response.sendFile('/home/matias/workspace/clm-abm-empleados/public/app/components/alta/altaView.html');
+      response.sendFile('/home/matmir/workspace/clm-abm-empleados/public/app/components/alta/altaView.html');
     })
     .post(parseUrlencoded, parseJSON, function(request, response) {
       emplCtrl.addEmpleado(request, response)

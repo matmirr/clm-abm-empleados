@@ -14,8 +14,8 @@ module.exports = (function() {
 
       $scope.getEmpleados = function() {
         Submit.all()
-         .success(function(data) {
-           $scope.empleados = data;
+         .then(function(empleados) {
+           $scope.empleados = empleados.data;
          })
       };
 

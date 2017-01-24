@@ -17,7 +17,7 @@ module.exports = (function() {
 
       $scope.modify = function(empleado) {
         Submit.update(empleado)
-        .success(function(data, status) {
+        .then(function(data, status) {
           /* A diferencia de la alta, aca el empleado pierde los métodos, necesito
             entonces crearme un nuevo empleado para poder utilizar los suyos */
           let e = new Empleado();

@@ -27,7 +27,7 @@ class EmpleadoController {
 
   empleado.save(function(err) {
       if(!err) {
-      log.writeLog(`El empleado ${empleado.fname} ${empleado.lname} ha sido dado de baja satisfactoriamente!`);
+      log.writeLog(`El empleado ${empleado.fname} ${empleado.lname} ha sido dado de alta satisfactoriamente!`);
         return res.send({ status: 201, empleado:empleado });
       } else {
         log.writeLog(err);

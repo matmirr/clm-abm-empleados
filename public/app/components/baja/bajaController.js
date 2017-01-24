@@ -11,7 +11,7 @@ module.exports = (function() {
 
       $scope.submit = function(empleado) {
         Submit.delete(empleado)
-        .success(function(data, status) {
+        .then(function(data, status) {
           empleado.delEmployee(data.empleado);
           $scope.empleado = new Empleado();
         });

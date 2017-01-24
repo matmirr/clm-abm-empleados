@@ -13,7 +13,7 @@ module.exports = (function(emplCtrl) {
 
   router.route('/')
     .get(function(request, response) {
-      response.sendFile('/home/matias/workspace/clm-abm-empleados/public/app/components/baja/bajaView.html');
+      response.sendFile('/home/matmir/workspace/clm-abm-empleados/public/app/components/baja/bajaView.html');
     })
     .put(parseUrlencoded, parseJSON, function(request, response) {
       emplCtrl.delEmpleado(request, response)

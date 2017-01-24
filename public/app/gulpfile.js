@@ -10,9 +10,7 @@ gulp.task('build', function() {
     .transform("babelify", { presets: ["es2015"] })
     .bundle()
     .pipe(source('bundle.js'))
-    .pipe(buffer())
-    .pipe(uglify())
+    //.pipe(buffer())
+    //.pipe(uglify())
     .pipe(gulp.dest('../assets/js'));
 });
-
-

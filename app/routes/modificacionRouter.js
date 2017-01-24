@@ -13,12 +13,12 @@ module.exports = (function(emplCtrl) {
 
   router.route('/')
     .get(function(request, response) {
-      response.sendFile('/home/matias/workspace/clm-abm-empleados/public/app/components/modificacion/modificacionViewGetter.html');
+      response.sendFile('/home/matmir/workspace/clm-abm-empleados/public/app/components/modificacion/modificacionViewGetter.html');
     }),
 
   router.route('/update')
     .get(function(request, response) {
-      response.sendFile('/home/matias/workspace/clm-abm-empleados/public/app/components/modificacion/modificacionViewSetter.html');
+      response.sendFile('/home/matmir/workspace/clm-abm-empleados/public/app/components/modificacion/modificacionViewSetter.html');
   })
     .put(parseUrlencoded, parseJSON, function(request, response) {
       emplCtrl.updateEmpleado(request, response);
